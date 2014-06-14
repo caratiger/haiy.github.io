@@ -11,4 +11,34 @@ Url:http://stackoverflow.com/questions/10396330/how-to-host-python-cgi-script-wi
 SimpleSubnetMasks
 Url:http://www.subnet-calculator.com/cidr.php
 ================================
+Squid ProxyServer ShareHttpConnection
+1.find a stable versions on http://www.squid-cache.org/Versions/
+2.src code
+3.tar xzf squid*.* 
+4.cd squid* 
+5../configure
+6.make
+7.sudo make install
+8. whereis squid
+9.find the corresponding squid.conf
+10.change /usr/local/squid/etc/squid.conf
+    1)set the netmask to right value of localnet
+    e.g acl change "localnet src 10.0.0.0/8" to acl "localnet src 10.0.0.0/24" to 
+    control the ip range
+    2) set the http_port
+        http_port 192.168.1.1:32780
 
+11.uncomment the cache_dir line
+12.
+/usr/local/squid/sbin/squid -z 
+/usr/local/squid/sbin/squid 
+13.check logs in /usr/local/squid/var/logs
+
+Url:http://wiki.squid-cache.org/SquidFaq/ConfiguringSquid
+
+
+================================
+Use Proxy on Linux
+export http_proxy=http://<proxy host or IP>:<proxy port > 
+export ftp_proxy=http://<proxy host or IP>:<proxy port >
+================================

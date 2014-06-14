@@ -6,5 +6,9 @@ Procedure:
     3.python -m CGIHTTPServer 8000
     4.http://xxxx:8000/cgi-bin/***.cgi
 
-Refer:http://stackoverflow.com/questions/10396330/how-to-host-python-cgi-script-with-python-m-simplehttpserver-8000-or-python
+Url:http://stackoverflow.com/questions/10396330/how-to-host-python-cgi-script-with-python-m-simplehttpserver-8000-or-python
 ================================
+SimpleSubnetMasks
+Url:http://www.subnet-calculator.com/cidr.php
+================================
+

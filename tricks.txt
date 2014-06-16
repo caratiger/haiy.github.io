@@ -114,3 +114,11 @@ add my_pc to /etc/hostname  and remove others
 Url : http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none
 
 ================================
+Ubuntu apt-get proxy setting
+sudo vim /etc/apt/apt.conf.d/01proxy
+The following text was added:
+$Acquire::http::Proxy "http://mywindowsdomain\fossfreedom:password@askubuntu-proxy.com:8080"
+If you are using an anonymous proxy then you don't need your login credentials:
+$Acquire::http::Proxy "http://askubuntu-proxy.com:8080";
+
+================================

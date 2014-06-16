@@ -103,3 +103,14 @@ Apache virtual host settings
      http://localhost:9080/cgi/hello.cgi
 
 ================================
+Linux HostName config
+1.check current hostname
+hostname
+2.set current hostname to my_pc immediately
+sudo hostname  my_pc
+3.make it effect permanent
+add my_pc to /etc/hostname  and remove others
+
+Url : http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none
+
+================================

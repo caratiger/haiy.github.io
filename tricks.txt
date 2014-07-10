@@ -122,3 +122,9 @@ If you are using an anonymous proxy then you don't need your login credentials:
 $Acquire::http::Proxy "http://askubuntu-proxy.com:8080";
 
 ================================
+How to get a single clean file from github
+1.just change to the file page
+2.click the view style as raw
+3.and then it can also be downloaded directly
+
+================================

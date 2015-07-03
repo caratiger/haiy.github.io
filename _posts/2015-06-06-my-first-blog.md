@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World.
+commentIssueId: 1
 ---
 
 {{ page.title }}

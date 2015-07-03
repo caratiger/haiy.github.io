@@ -198,9 +198,9 @@ ul.posts {
   
 #searchBar { 
   font-size: 100%;
-  padding: 0.43em 0 0.57em;
+  padding: 0 0 1em;
+  float: right;
   #search { 
-    float: right; 
     #searchString { 
       width: 300px; 
       border: none; 

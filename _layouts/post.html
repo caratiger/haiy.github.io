@@ -19,7 +19,9 @@ layout: default
    <div id="header">
      Want to leave a comment? Visit <a href="https://github.com/haiy/haiy.github.io/issues/{{page.commentIssueId}}"> this post's issue page on GitHub</a> (you'll need a GitHub account. What? Like you already don't have one?!).
    </div>
-   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script type="text/javascript">
     function loadComments(data) {
       for (var i=0; i<data.length; i++) {
@@ -34,14 +36,12 @@ layout: default
      }
     }
   
-    $.ajax("https://api.github.com/repos/haiy/haiy.github.io/issues/1/comments", {
-      headers: {Accept: "application/vnd.github.full+json"},
+    $.ajax("https://api.github.com/repos/haiy/haiy.github.io/issues/{{page.commentIssueId}}/comments?per_page=100", {
+      headers: {Accept: "application/vnd.github.full+json
+       dataType: "json",
      success: function(msg){
        loadComments(msg);
     }
    });
  </script>
-</div>
-
-
 

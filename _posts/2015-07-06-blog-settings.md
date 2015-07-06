@@ -60,8 +60,8 @@ github主页添加特定的域名，可以参考[这儿](http://davidensinger.co
 而关于这个数学公式显示的js插件，则可参考[这个](http://docs.mathjax.org/en/latest/start.html)。
 
 \(x^2_1\)
-When a\ne0, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-x = {-b \pm \sqrt{b^2-4ac} \over 2a
+When \[a\ne0\], there are two solutions to \(ax^2 + bx + c = 0\) and they are
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a\]
 
 我在测试这个玩意\( 1/x^{2} \)看看到底怎么用
 

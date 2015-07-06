@@ -23,7 +23,7 @@ commentIssueId: 6
 [这里](https://support.google.com/webmasters/topic/4564315?hl=en&ref_topic=4581229) .
 - 验证完后，就可以在先大概看下这个[cse文档](https://support.google.com/customsearch#topic=4513742), 主要是先大概
 看下有个整体的概念，然后就可以玩起来咯，来[这里](https://cse.google.com/cse/all) 开动，暂时需要做的有这么几个
-方面，
+方面:
     - a.新建好自己的CSE，
     - b.然后拿到自己CSE的js代码[Edit search engine -> Setup -> Basics -> Get code]，
     - c.建立下主页的索引，待会会用到索引数据来测试CSE
@@ -37,6 +37,7 @@ commentIssueId: 6
         关键是[这儿](https://github.com/haiy/haiy.github.io/blob/master/search.html#L19]的queryParameterName)。
     - 搜索结果页面样式, 这个主要涉及两个地方，一个是CSE中的[Edit search engine -> Look and feel],另外一个就是
         结果页的模版样式，以及CSS。
+
 经过上述步骤后自己的CSE应该就可以看起来不错啦，过两天等google的爬虫爬完后，就会用起来不错啦。
 
 ####2. 基于github issue的评论系统

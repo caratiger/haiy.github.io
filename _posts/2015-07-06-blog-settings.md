@@ -44,12 +44,11 @@ commentIssueId: 6
 这个评论参考了多说，disque，但是感觉不够干净，自己尝试过直接用新建issue但效果看起来都不很如意，直到遇见了
 [它](http://ivanzuzak.info/2011/02/18/github-hosted-comments-for-github-hosted-blogs.html),顿时感觉遇到了
 知音。搭建的过程完全参考该篇博客，么有什么特别需要注意的，按步骤来就可以的了拉。其主要是调用了github的issue
-的[API](https://developer.github.com/v3/), 该API中获取issues的接口为 "https://api.github.com/repos/izuzak/izuzak.github.com/issues/12/comments", 在实际使用的时候要将里面的repos等信息更换为自己的。注意，一定要把博客中提到的两个js库加到页面中。
+的[API](https://developer.github.com/v3/), 该API中获取issues的接口为
+"https://api.github.com/repos/izuzak/izuzak.github.com/issues/12/comments", 在实际使用的时候要将里面的repos等信息更换为自己的。注意，一定要把博客中提到的两个js库加到页面中。
 
 ####3. www.haiyf.space和haiy.space的设置
 
 这个设置主要是域名提供商那儿的设置，我的域名是从Namecheap买的，所以我在namecheap设置的。至于如果给自己的
 github主页添加特定的域名，可以参考[这儿](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) 。
 关于www的支持问题则是在namecheap的Customize Parked Page中添加重定向，实质上是将www.haiyf.space重定向到haiyf.space.
-
-

@@ -58,11 +58,10 @@ github主页添加特定的域名，可以参考[这儿](http://davidensinger.co
 
 关于Latex语法主要参考[这儿](http://mirrors.ustc.edu.cn/CTAN/info/lshort/english/lshort.pdf). 
 而关于这个数学公式显示的js插件，则可参考[这个](http://docs.mathjax.org/en/latest/start.html)。
-<div id="myMath">
+
 $$x^{2}_1$$
 
 我在测试这个玩意\\( 1/x^{2} \\)看看到底怎么用
-</div>
 
 
 

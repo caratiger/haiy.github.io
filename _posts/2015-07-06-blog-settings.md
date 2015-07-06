@@ -46,7 +46,7 @@ commentIssueId: 6
 [它](http://ivanzuzak.info/2011/02/18/github-hosted-comments-for-github-hosted-blogs.html),顿时感觉遇到了
 知音。搭建的过程完全参考该篇博客，么有什么特别需要注意的，按步骤来就可以的了拉。其主要是调用了github的issue
 的[API](https://developer.github.com/v3/), 该API中获取issues的接口为
-"https://api.github.com/repos/izuzak/izuzak.github.com/issues/12/comments", 在实际使用的时候要将里面的repos等信息更换为自己的。注意，一定要把博客中提到的两个js库加到页面中。
+https://api.github.com/repos/izuzak/izuzak.github.com/issues/12/comments, 在实际使用的时候要将里面的repos等信息更换为自己的。注意，一定要把博客中提到的两个js库加到页面中。
 
 ####3. www.haiyf.space和haiy.space的设置
 

@@ -57,6 +57,8 @@ github主页添加特定的域名，可以参考[这儿](http://davidensinger.co
 ####4. Math Functions
 
 关于Latex语法主要参考[这儿](http://mirrors.ustc.edu.cn/CTAN/info/lshort/english/lshort.pdf). 
+而关于这个数学公式显示的js插件，则可参考[这个](http://docs.mathjax.org/en/latest/start.html)。
+
 $$x^2_1$$
 
 

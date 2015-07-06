@@ -61,6 +61,8 @@ github主页添加特定的域名，可以参考[这儿](http://davidensinger.co
 
 $$x^{2}_1$$
 
+\\( 1/x^{2} \\)
+
 
 
 

@@ -53,3 +53,12 @@ https://api.github.com/repos/izuzak/izuzak.github.com/issues/12/comments, 在实
 这个设置主要是域名提供商那儿的设置，我的域名是从Namecheap买的，所以我在namecheap设置的。至于如果给自己的
 github主页添加特定的域名，可以参考[这儿](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) 。
 关于www的支持问题则是在namecheap的Customize Parked Page中添加重定向，实质上是将www.haiyf.space重定向到haiyf.space.
+
+####4. Math Functions
+
+关于Latex语法主要参考[这儿](http://mirrors.ustc.edu.cn/CTAN/info/lshort/english/lshort.pdf). 
+$$x^2_1$$
+
+
+
+

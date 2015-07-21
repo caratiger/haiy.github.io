@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: 博客搭建相关
 commentIssueId: 6
 ---

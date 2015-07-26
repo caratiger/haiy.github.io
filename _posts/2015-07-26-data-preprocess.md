@@ -14,7 +14,7 @@ title: ML－DataPreprocess
 ####1. 人群购买预测模型特征构建相关
 
 在任务确定的时候，首先确定了下问题的定义以及可能用到的特征，正负样本的定义，训练和测试数据的选取。
-在(Tan)[http://www.amazon.com/Introduction-Data-Mining-1st-first/dp/B006UTDDJU/ref=mt_hardcover?_encoding=UTF8&me=]
+在[Tan](http://www.amazon.com/Introduction-Data-Mining-1st-first/dp/B006UTDDJU/ref=mt_hardcover?_encoding=UTF8&me=)
 的书中第一章提到了数据的基本类型，总体分为两大类，Categorical和Numeric。其中前者又可分为两类Nominal,Ordinal;后者
 分为Interval,Ratio。换种比较通俗的说法就是把特征分为定性的和定量的两种。定性的特征一般的描述的是对象的特异性(Distinctness)，
 有序性(Order)，对应的特征类型是Nominal和Ordinal。定量的特征一半描述的是对象的加减,乘除,对应的特征类型是Interval,Ratio。

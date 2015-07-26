@@ -56,4 +56,17 @@ title: ML－DataPreprocess
 对于逻辑回归模型(LR)出现过拟合的情况，通过调试发现影响对大的是不同正则化方法的选择，L1正则化对特征选择的效果比L2明显。
 GBDT模型平均效果要好于LR, 主要是抗过拟合能力很显著。但是就是训练速度比LR慢。
 
+####小结
 
+周五的时候被Xu拉去谈了很久。每次总是跑不了说我做事慢。我都无奈了。在工作上还是要注意工作方法。
+简单来说，接到任务后，先花费两天做出一个最粗糙的结果，然后将结果反馈，病描述自己解决的问题的对象，这个过程是
+对问题的定义及确认阶段，同时也是对任务难度的估计阶段。而后确定接下来任务的方向与难度，时间规划。要及时反馈。
+
+关于GBDT，这两几篇篇博文
+[B1](http://blog.csdn.net/w28971023/article/details/8240756),
+[B2](http://www.52ml.net/15084.html),
+[B3](http://www.cnblogs.com/LeftNotEasy/archive/2011/03/07/random-forest-and-gbdt.html),
+[B4](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html)
+挺好的。
+
+以后要继续坚持锻炼身体。

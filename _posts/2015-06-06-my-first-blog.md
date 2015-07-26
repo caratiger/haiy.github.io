@@ -16,6 +16,7 @@ github [page](https://github.com/haiy/haiy.github.io).
 - **从2015-05开始每天要至少30个俯卧撑，50个深蹲。**
 - **从2015-06开始每周至少一篇文章。**
 - **从2015-07-26开始，三本书年底前读完，PRML,PGM,IntroductionToDataMining.至少写个CRF，GBDT。**
-Hey！Come On！
+
+Hey!ComeOn!
 
 Thank you.

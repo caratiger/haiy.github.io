@@ -10,7 +10,8 @@ commentIssueId: 1
 
 
 ####1.混合迭代模型
-       混合迭代模型的主要思路是混合多模型，多规则的结果，计算一个用户的复合得分，而后按得分排序，取topN 作为最终投放人群。通过每隔3天的投放效果对混合模型的各项进行权重调整，以其达到最好的效果。
+
+混合迭代模型的主要思路是混合多模型，多规则的结果，计算一个用户的复合得分，而后按得分排序，取topN 作为最终投放人群。通过每隔3天的投放效果对混合模型的各项进行权重调整，以其达到最好的效果。
 
 用户得分函数：
 userscore = wLR*SLR + wGBDT*SGBDT + wRF*SRF + wR1*SR1 + … + wRn*SRn
@@ -41,9 +42,9 @@ f.collect_days
 迭代过程：
 	根据模型投放人群每隔3天，计算一次各个模型及规则人群的命中效果，根据命中人群比例确定模型权重，调整目标可以根据需求侧重，从而产生如高点击模型，高转化模型。
 	
-	####2.Spark以及JDK1.8快速配置
+####2.Spark以及JDK1.8快速配置
 	
-	Spark 部署方式：
+Spark 部署方式：
 1.部署脚本
 
 ```bash
@@ -68,7 +69,8 @@ lib/spark-examples*.jar \
 10
 
 
-Java8 部署步骤：
+Java8 部署步骤:
+```
 1.打开网页：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 2. 选中Accept License Agreement 
 3.下载 Linux x64 165.24 MB    jdk-8u45-linux-x64.tar.gz版本
@@ -84,10 +86,12 @@ update-alternatives --install /usr/bin/java java /software/servers/jdk1.8.0_xx/b
 update-alternatives --install /usr/bin/javac javac /software/servers/jdk1.8.0_xx/bin/javac 300
 update-alternatives --config java
 update-alternatives --config javac
-4.测试JDK是否安装配置成功：
+```
+测试JDK是否安装配置成功：
  java -version
  
  ####小结
+ 
  最近两周都没有好好看书，一方面是因为工作的原因，一方面是自己有些懒散了。因为发现实际工作中用到的东西，
  书上给不了，有点无力感。有时候睡觉醒了也在想工作的事情。要努力啊！！
  

@@ -77,7 +77,8 @@ lib/spark-examples*.jar \
 Java8 部署步骤:
 
 ```
-1.打开网页：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+1.打开网页：http://www.oracle.com/technetwork/java/javase/
+	downloads/jdk8-downloads-2133151.html
 2. 选中Accept License Agreement 
 3.下载 Linux x64 165.24 MB    jdk-8u45-linux-x64.tar.gz版本
 4.cd /software/servers/
@@ -88,8 +89,10 @@ JRE_HOME=/software/servers/jdk1.8.0_xx/jre
 PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 CLASSPATH=$CLASSPATH:.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
 7.更新系统java版本
-update-alternatives --install /usr/bin/java java /software/servers/jdk1.8.0_xx/bin/java 300
-update-alternatives --install /usr/bin/javac javac /software/servers/jdk1.8.0_xx/bin/javac 300
+update-alternatives --install /usr/bin/java java \ 
+	/software/servers/jdk1.8.0_xx/bin/java 300
+update-alternatives --install /usr/bin/javac javac \ 
+	/software/servers/jdk1.8.0_xx/bin/javac 300
 update-alternatives --config java
 update-alternatives --config javac
 ```

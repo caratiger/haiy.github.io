@@ -33,15 +33,18 @@ view_days,
 view_pages/d.view_days as avg_pages_per_day,
 view_items/d.view_days as avg_items_per_day,
 view_pages/d.view_items as avg_pages_per_item,
-datediff(to_date('${bizdate}','yyyymmdd'),to_date(d.latest_view_time,'yyyymmdd'), 'dd')  as last_view_interval,
+datediff(to_date('${bizdate}','yyyymmdd'),
+	to_date(d.latest_view_time,'yyyymmdd'), 'dd')  as last_view_interval,
 order_count,
 order_count/d.view_days as order_per_day,
-datediff(to_date('${bizdate}','yyyymmdd'),to_date(e.latest_order_time,'yyyymmdd'), 'dd')  as last_buy_interval,
+datediff(to_date('${bizdate}','yyyymmdd'),
+	to_date(e.latest_order_time,'yyyymmdd'), 'dd')  as last_buy_interval,
 f.collect_count,
 f.collect_days
 注：斜体部分为比较有效的特征
 迭代过程：
-	根据模型投放人群每隔3天，计算一次各个模型及规则人群的命中效果，根据命中人群比例确定模型权重，调整目标可以根据需求侧重，从而产生如高点击模型，高转化模型。
+	根据模型投放人群每隔3天，计算一次各个模型及规则人群的命中效果，
+	根据命中人群比例确定模型权重，调整目标可以根据需求侧重，从而产生如高点击模型，高转化模型。
 ```
 
 ####2.Spark以及JDK1.8快速配置
@@ -72,6 +75,7 @@ lib/spark-examples*.jar \
 
 
 Java8 部署步骤:
+
 ```
 1.打开网页：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 2. 选中Accept License Agreement 

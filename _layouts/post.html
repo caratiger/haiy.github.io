@@ -10,7 +10,7 @@ layout: default
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> 
-      <a href="https://github.com/haiy/haiy.github.io/edit/master/{{ post.title}}">&raquo; </a>
+      <a href="https://github.com/haiy/haiy.github.io/edit/master/{{ post.title}}">edit &raquo; </a>
       <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>

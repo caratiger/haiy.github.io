@@ -1,3 +1,4 @@
 pygments: true
-
+paginate: 9
+paginate_path: "/blog/page:num/"
 

@@ -269,6 +269,8 @@ ul.posts {
   
   background-color: transparent;
   border-bottom-style: solid;
+  border-bottom-color:rgba(104, 104, 109, 0.22);
+  border-bottom-width:thin;
   
   display: block;
   float: left;
@@ -386,7 +388,7 @@ ul.posts {
   margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  margin-top: 40px;
+  margin-top: 10px;
   overflow-x: visible;
   overflow-y: visible;
   padding: 0em;

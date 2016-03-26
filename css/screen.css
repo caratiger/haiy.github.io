@@ -59,7 +59,7 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: .4em;
 }
 
   ul.posts li {
@@ -169,9 +169,11 @@ ul.posts {
    .site .tabHeaer ul  li:hover ul{
         display: block; /* display the dropdown */
     }
-    .site .pagination{
-      
+    .site .pagination {
+    font-size: small;
+    padding-top: 1px;
     }
+
 
 /*****************************************************************************/
 /*

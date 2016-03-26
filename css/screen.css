@@ -266,7 +266,9 @@ ul.posts {
   }
 
 .comment .commentheader {
-  border-bottom-color: #CACACA;
+  
+  background-color: transparent;
+
   border-bottom-style: solid;
   border-bottom-width: 1px;
   color: black;

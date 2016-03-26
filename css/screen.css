@@ -268,13 +268,9 @@ ul.posts {
 .comment .commentheader {
   
   background-color: transparent;
-
+  border-bottom-color: #CACACA;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
-  color: black;
-  background-image: -webkit-linear-gradient(#F8F8F8,#E1E1E1);
-  background-image: -moz-linear-gradient(#F8F8F8,#E1E1E1);
-  color: black;
+  
   display: block;
   float: left;
   font-family: helvetica, arial, freesans, clean, sans-serif;

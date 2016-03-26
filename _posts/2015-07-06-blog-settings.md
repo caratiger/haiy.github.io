@@ -9,7 +9,7 @@ commentIssueId: 6
 
 <p class="meta">8 July 2015 </p>
 
-####1.定制的google 搜索
+#### 1.定制的google 搜索
 
 主要参考了这篇[博客](http://digitaldrummerj.me/blogging-on-github-part-7-adding-a-custom-google-search/), 但是
 这篇博客中其实还有几个地方没有写清楚，下面就整理下我的google 定制搜索(Custom Search Engine,cse)的整个流程。
@@ -40,7 +40,7 @@ commentIssueId: 6
 
 经过上述步骤后自己的CSE应该就可以看起来不错啦，过两天等google的爬虫爬完后，就会用起来不错啦。
 
-####2. 基于github issue的评论系统
+#### 2. 基于github issue的评论系统
 
 这个评论参考了多说，disque，但是感觉不够干净，自己尝试过直接用新建issue但效果看起来都不很如意，直到遇见了
 [它](http://ivanzuzak.info/2011/02/18/github-hosted-comments-for-github-hosted-blogs.html),顿时感觉遇到了
@@ -48,13 +48,13 @@ commentIssueId: 6
 的[API](https://developer.github.com/v3/), 该API中获取issues的接口为
 https://api.github.com/repos/izuzak/izuzak.github.com/issues/12/comments, 在实际使用的时候要将里面的repos等信息更换为自己的。注意，一定要把博客中提到的两个js库加到页面中。
 
-####3. www.haiyf.space和haiy.space的设置
+#### 3. www.haiyf.space和haiy.space的设置
 
 这个设置主要是域名提供商那儿的设置，我的域名是从Namecheap买的，所以我在namecheap设置的。至于如果给自己的
 github主页添加特定的域名，可以参考[这儿](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) 。
 关于www的支持问题则是在namecheap的Customize Parked Page中添加重定向，实质上是将www.haiyf.space重定向到haiyf.space.
 
-####4. Math Functions
+#### 4. Math Functions
 
 关于Latex语法主要参考[这儿](http://mirrors.ustc.edu.cn/CTAN/info/lshort/english/lshort.pdf). 
 而关于这个数学公式显示的js插件，则可参考[这个](http://docs.mathjax.org/en/latest/start.html)。

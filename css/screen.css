@@ -169,7 +169,9 @@ ul.posts {
    .site .tabHeaer ul  li:hover ul{
         display: block; /* display the dropdown */
     }
-
+    .site .pagination{
+      
+    }
 
 /*****************************************************************************/
 /*

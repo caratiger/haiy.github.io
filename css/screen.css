@@ -115,14 +115,14 @@ ul.posts {
     color: #aaa;
   }
 
+  
   .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-  }
-
+      font-size: 85%;
+      color: #666;
+      border-top: 2px solid #eee;
+      /* margin-top: 1em; */
+      overflow: hidden;
+    }
     .site .footer .contact {
       float: left;
       margin-right: 3em;

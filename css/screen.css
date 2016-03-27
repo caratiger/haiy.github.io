@@ -188,6 +188,10 @@ ul.posts {
 }
 
   /* standard */
+  
+  #post a {
+    text-decoration:underline;
+  }
 
   #post pre {
     border: 1px solid #ddd;

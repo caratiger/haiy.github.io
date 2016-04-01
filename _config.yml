@@ -5,9 +5,8 @@ future: true
 
 defaults:
   -
-
   scope:
-        path: "_posts"
-            type: "posts"
-        values: 
-          layout: "post"
+    path: "/_posts"
+    type: "posts"
+  values: 
+    layout: "post"

@@ -7,6 +7,6 @@ defaults:
   -
   scope:
     path: ""
-    type: "posts"
+    type: "post"
   values: 
     layout: "post"

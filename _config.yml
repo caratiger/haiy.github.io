@@ -3,7 +3,3 @@ paginate: 9
 paginate_path: "/blog/page:num/"
 future: true
 
-
-layout_defaults:
-    *: page
-    _posts: post

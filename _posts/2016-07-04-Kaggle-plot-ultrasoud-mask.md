@@ -14,11 +14,14 @@ layout: post
 轮廓mask:
 
 <img src="{{site.url}}/images/1_1_mask.png"  height="200px" width="200px">
+
 tips: tif文件灰度存为png灰度 
+
 ```
 import Image
 Image.open('1_1.tif').convert('LA').save('1_1.png')
 ```
+
 将上面两个图合并到一张图上去的代码如下：
 
 ```python

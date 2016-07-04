@@ -9,7 +9,7 @@ layout: post
 超声波图片上。
 原始的图片如下：
 
-<img src="{{site.url}}/images/1_1.tif"  height="200px" width="200px">
+<img src="{{site.url}}/images/1_1.png"  height="200px" width="200px">
 
 '''python
 import matplotlib.pyplot as plt

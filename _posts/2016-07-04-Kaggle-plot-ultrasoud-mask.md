@@ -11,7 +11,16 @@ layout: post
 
 <img src="{{site.url}}/images/1_1.png"  height="200px" width="200px">
 
-'''python
+轮廓mask:
+<img src="{{site.url}}/images/1_1_mask.png"  height="200px" width="200px">
+tips: tif文件灰度存为png灰度 
+```
+import Image
+Image.open('1_1.tif').convert('LA').save('1_1.png')
+```
+将上面两个图合并到一张图上去的代码如下：
+
+```python
 import matplotlib.pyplot as plt
 import cv2
 import numpy as np
@@ -25,7 +34,12 @@ img_color[mask_pix, 1] = 255
 img_color[mask_pix, 2] = 255
 plt.imshow(img_color)
 plt.show()
-'''
+```
+合并后的结果如下：
+<img src="{{site.url}}/images/1_1_mask_combined.png"  height="200px" width="200px">
+
+[参考kaggle script](https://www.kaggle.com/chefele/ultrasound-nerve-segmentation/plot-images-overlaid-with-mask/comments)
+
 
 
 

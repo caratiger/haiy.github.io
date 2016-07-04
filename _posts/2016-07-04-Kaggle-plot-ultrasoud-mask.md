@@ -27,8 +27,7 @@ Image.open('1_1.tif').convert('LA').save('1_1.png')
 ```python
 import matplotlib.pyplot as plt
 import cv2
-import numpy as np
-
+import numpy as np  
 img = plt.imread("1_1.tif")
 mask = plt.imread("1_1_mask.tif")
 img_color = np.dstack([img, img, img])
@@ -41,7 +40,7 @@ plt.show()
 ```
 合并后的结果如下：
 
-<img src="{{site.url}}/images/1_1_mask_combined.png"  height="200px" width="200px">
+<img src="{{site.url}}/images/1_1_mask_combined.png"  height="300px" width="300px">
 
 参考：[kaggle script](https://www.kaggle.com/chefele/ultrasound-nerve-segmentation/plot-images-overlaid-with-mask/comments)
 

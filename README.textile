@@ -2,3 +2,4 @@ h1. This is the data for my blog
 
 My "Jeklly" blog with the theme from http://github.com/mojombo/jekyll.
 
+https://jekyllrb.com/docs/home/

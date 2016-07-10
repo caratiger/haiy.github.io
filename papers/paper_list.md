@@ -1,5 +1,0 @@
----
-layout: list
----
-
-{{page.title}}

@@ -185,6 +185,9 @@ ul.posts {
 /* Posts
 /*
 /*****************************************************************************/
+pre {
+    white-space: pre-wrap;
+}
 
 #post {
 
@@ -217,7 +220,6 @@ ul.posts {
     #post pre code {
       border: none;
 
-    white-space: pre-wrap;
     }
 
   /* terminal */

@@ -216,6 +216,8 @@ ul.posts {
 
     #post pre code {
       border: none;
+
+    white-space: pre-wrap;
     }
 
   /* terminal */

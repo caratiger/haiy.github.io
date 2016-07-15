@@ -5,6 +5,5 @@ title: haiy
 
 
 {% for file in site.static_files %}
-    <p>{{file.path}} - {{file.modified_time}}</p>
-    <a><p>{{file.path}} - {{file.modified_time}}</p></a src="{{site.baseurl}}{{file.path}}">
+    <a><p>{{file.path}} }}</p></a src="{{site.baseurl}}/{{file.path}}">
 {% endfor %}

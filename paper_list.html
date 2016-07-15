@@ -1,9 +1,9 @@
 ---
-layout: papers
+layout: post
 title: haiy
 ---
 
 
 {% for file in site.static_files %}
-    <a><p>{{file.path}}</p></a href="{{site.baseurl}}/{{file.path}}">
+    <a href="{{site.baseurl}}/{{file.path}}">{{file.path}}</a >
 {% endfor %}

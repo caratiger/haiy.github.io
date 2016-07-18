@@ -45,7 +45,7 @@ plt.pie(size, explode=explode, labels=labels,autopct='%1.1f%%')
 plt.axis('equal')
 plt.show()
 ```
-<img src="{{site.url}}/images/kaggle/talking_data/figure_1.png"  height="200px" width="200px">
+<img src="{{site.url}}/images/kaggle/talking_data/figure_1.png"  height="400px" width="300px">
 
 参考:
 

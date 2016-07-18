@@ -45,11 +45,11 @@ plt.pie(size, explode=explode, labels=labels,autopct='%1.1f%%')
 plt.axis('equal')
 plt.show()
 ```
-[img](src=)
-
+<img src="{{site.url}}/images/kaggle/talking_data/figure_1.png"  height="100px" width="100px">
 
 参考:
 
 [MySQLdb doc](http://mysql-python.sourceforge.net/MySQLdb.html)   
 [Simple python mysql example](http://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python)   
 [matplotlib](http://matplotlib.org/)
+[pie_demo_features](http://matplotlib.org/examples/pie_and_polar_charts/pie_demo_features.html)

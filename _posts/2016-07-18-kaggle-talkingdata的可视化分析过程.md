@@ -19,12 +19,33 @@ mysql+sublimt+tmux+sql_terminal+ipython+matplotlib。简单说下这么选型的
 
 ```
 sudo apt-get install ipython python-mysqldb tmux python-matplotlib
-
+```
 
 **2 数据分析**
 
  - 2.1 数据分布分析
  
+```
+import MySQLdb
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
+
+db = MySQLdb.connect(user='root', passwd='root')
+cur = db.cursor()
+cur.execute("select use_group, count(*) from kaggle.gender_age_train group by gender")
+res = cur.fetchall()
+labels = res[0][0], res[2][0]
+size = res[0][1], res[2][1]
+explode = (0.1,0)
+plt.pie(size,labels)
+plt.pie(size, explode=explode, labels=labels,autopct='%1.1f%%')
+plt.axis('equal')
+plt.show()
+```
+[img](src=)
 
 
 参考:

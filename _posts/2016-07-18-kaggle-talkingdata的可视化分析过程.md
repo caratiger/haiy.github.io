@@ -23,8 +23,8 @@ sudo apt-get install ipython python-mysqldb tmux python-matplotlib
 
 **2 数据分析**
 
- - 2.1 数据分布分析
- 
+ - 2.1 训练集样本中男女分布
+
 ```
 import MySQLdb
 import matplotlib.pyplot as plt
@@ -46,6 +46,28 @@ plt.axis('equal')
 plt.show()
 ```
 <img src="{{site.url}}/images/kaggle/talking_data/figure_1.png"  height="300px" width="400px">
+
+- 2.1 男女年龄分级分布对比
+
+```
+cur.execute("select use_group as user_group,count(*) from kaggle.gender_age_train group by use_group")
+age_dist = cur.fetchall()
+N = 6
+ind = np.arange(N)
+men = [f[1] for f in age_dist if str(f).startswith('F')]
+women = [f[1] for f in age_dist if f[0].startswith('M')]
+fig, ax = plt.subplots()
+rects1 = ax.bar(ind, men, width, color = 'r')
+rects2 = ax.bar(ind+width, women, width, color = 'y')
+ax.set_ylabel('count')
+ax.set_title('Men and women age level count')
+ax.set_xticks(ind+width)
+ax.set_xticklabels(('L1', 'L2', 'L3', 'L4', 'L5', 'L6'))
+ax.legend((rects1[0], rects2[0]), ('Men', 'Women'))
+plt.show()
+```
+
+<img src="{{site.url}}/images/kaggle/talking_data/figure_2.png"  height="300px" width="400px">
 
 参考:
 

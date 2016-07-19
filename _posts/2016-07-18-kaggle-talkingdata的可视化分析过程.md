@@ -71,7 +71,6 @@ plt.show()
 
 - 2.2 数据长什么样子
 
-```
 mysql> select * from events limit 10;
 +----------+----------------------+---------------------+-----------+----------+
 | event_id | device_id            | timestamp           | longitude | latitude |
@@ -130,7 +129,7 @@ mysql> select count(distinct event_id) from app_events;
 +--------------------------+
 |                  1488097 |
 +--------------------------+
-```
+
  
 
 

@@ -137,8 +137,8 @@ mysql> select count(distinct event_id) from app_events;
 
 参考:
 
-[MySQLdb doc](http://mysql-python.sourceforge.net/MySQLdb.html)   
-[Simple python mysql example](http://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python)   
-[matplotlib](http://matplotlib.org/)
-[pie_demo_features](http://matplotlib.org/examples/pie_and_polar_charts/pie_demo_features.html)
-[barchart_demo](http://matplotlib.org/examples/api/barchart_demo.html)
+[MySQLdb doc](http://mysql-python.sourceforge.net/MySQLdb.html)     
+[Simple python mysql example](http://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python)      
+[matplotlib](http://matplotlib.org/)   
+[pie_demo_features](http://matplotlib.org/examples/pie_and_polar_charts/pie_demo_features.html)   
+[barchart_demo](http://matplotlib.org/examples/api/barchart_demo.html)    

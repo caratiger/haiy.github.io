@@ -17,7 +17,7 @@ mysql+sublimt+tmux+sql_terminal+ipython+matplotlib。简单说下这么选型的
 
 **1 基本安装**
 
-```
+```bash
 sudo apt-get install ipython python-mysqldb tmux python-matplotlib
 ```
 
@@ -25,7 +25,7 @@ sudo apt-get install ipython python-mysqldb tmux python-matplotlib
 
  - 2.1 训练集样本中男女分布
 
-```
+```python
 import MySQLdb
 import matplotlib.pyplot as plt
 import numpy as np
@@ -49,7 +49,7 @@ plt.show()
 
 - 2.1 男女年龄分级分布对比
 
-```
+```python
 cur.execute("select use_group as user_group,count(*) from kaggle.gender_age_train group by use_group")
 age_dist = cur.fetchall()
 N = 6
@@ -71,7 +71,7 @@ plt.show()
 
 - 2.2 数据长什么样子
 
-```
+```sql
 mysql> select * from events limit 10;
 +----------+----------------------+---------------------+-----------+----------+
 | event_id | device_id            | timestamp           | longitude | latitude |

@@ -40,8 +40,17 @@ cp vimrc ~/.vimrc
 这时候python的自动补全应该也是ok的。
 至于具体的键位映射看下vimrc.
 
+**3 tmux快捷键**
+
+<script src="https://gist.github.com/haiy/66f96a25326dccc0ad531b01c19b8c88.js"></script>
+
+**4 vim快捷键**
+
+<script src="https://gist.github.com/haiy/5fcd003ab3a69503fc3e9d3df7ca9978.js"></script>
+
 
 参考:    
+[tmux doc](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)   
 [jedi-vim](https://github.com/davidhalter/jedi-vim)   
 [Automatically_add_Python_paths_to_Vim_path](http://vim.wikia.com/wiki/Automatically_add_Python_paths_to_Vim_path)    
 [ubuntu-16-04-vim-without-python-support](http://askubuntu.com/questions/764882/ubuntu-16-04-vim-without-python-support)   

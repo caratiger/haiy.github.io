@@ -6,7 +6,7 @@ layout: post
 ===============
 <p class="meta">July 28</p>
 
-1. 安装java1.84,scala以及其他基本工具
+**1. 安装java1.84,scala以及其他基本工具**
 
 ```bash
 sudo apt-get install git maven scala
@@ -19,7 +19,7 @@ sudo apt-get install git maven scala
 [Idea162 下载地址](https://www.jetbrains.com/idea/download/download-thanks.html?code=IIC)
 
 
-2. 代码框架 
+**2. 代码框架**
  
 (artifactId就是最后的jar包的名字）
 
@@ -44,12 +44,12 @@ mvn -B archetype:generate \
 </dependency>
 ```
 
-3. 打开Idea，导入maven项目，安装插件，设置sdk
+**3. 打开Idea，导入maven项目，安装插件，设置sdk**
 
 安装插件,ctrl+shift+a, plugins,install jetbrain plugins, 搜索scala,安装
 
 
-4. 测试代码
+**4. 测试代码**
 
 [sparkl-core pom dependency](https://mvnrepository.com/artifact/org.apache.spark/spark-core_2.11/2.0.0)  
 [running on yarn](http://spark.apache.org/docs/latest/running-on-yarn.html)  
@@ -78,7 +78,7 @@ $ ./bin/spark-submit --class my.main.Class \
     app_arg1 app_arg2
 ```
 
-5. java scala混合项目
+**5. java scala混合项目**
 
 其实主要是pom的配置
 

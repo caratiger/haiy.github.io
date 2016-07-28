@@ -2,11 +2,13 @@
 layout: post
 ---
 
-{{page.tile}}
+{{page.title}}
 =======
 <p class="meta">July 28 2016</p>
 
 **1. 安装java1.84,scala以及其他基本工具**
+
+[java 8, spark安装](http://haiy.github.io/2015/08/16/%E6%B7%B7%E5%90%88%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%8F%8Aspark,JAVA%E9%85%8D%E7%BD%AE.html)
 
 ```bash
 sudo apt-get install git maven scala

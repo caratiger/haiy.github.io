@@ -3,9 +3,7 @@ layout: post
 ---
 
 {{page.tile}}
-
-===============
-
+=======
 <p class="meta">July 28 2016</p>
 
 **1. 安装java1.84,scala以及其他基本工具**

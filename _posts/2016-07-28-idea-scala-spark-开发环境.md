@@ -10,15 +10,18 @@ layout: post
 
 ```bash
 sudo apt-get install git maven scala
+```
 
 [java8 下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 [scala11 下载地址](http://scala-lang.org/download/)
 [spark2.0 下载地址](http://spark.apache.org/downloads.html)
 [hadoop2.7 下载地址](http://hadoop.apache.org/releases.html)
 [Idea162 下载地址](https://www.jetbrains.com/idea/download/download-thanks.html?code=IIC)
-```
 
-2. 代码框架（artifactId就是最后的jar包的名字）
+
+2. 代码框架 
+ 
+(artifactId就是最后的jar包的名字）
 
 手动生成全新的代码框架或者直接用我的[带有spark样例测试的代码框架](https://raw.githubusercontent.com/haiy/haiy.github.io/master/old_data/HackData.tar.gz)
 
@@ -42,19 +45,19 @@ mvn -B archetype:generate \
 ```
 
 3. 打开Idea，导入maven项目，安装插件，设置sdk
+
 安装插件,ctrl+shift+a, plugins,install jetbrain plugins, 搜索scala,安装
 
 
 4. 测试代码
+
 [sparkl-core pom dependency](https://mvnrepository.com/artifact/org.apache.spark/spark-core_2.11/2.0.0)  
 [running on yarn](http://spark.apache.org/docs/latest/running-on-yarn.html)  
 
-```
+```bash
 #打包
 mvn package -DskipTests=true -T 2C
 
-
-```bash
 $ ./bin/spark-submit --class path.to.your.Class --master yarn --deploy-mode cluster [options] <app jar> [app options]
 
 $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \

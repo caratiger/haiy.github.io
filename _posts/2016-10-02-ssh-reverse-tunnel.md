@@ -13,9 +13,9 @@ title: hack ssh
 There are three hosts，A with many NAT layers at home ，B public IP host，C host from anyhere.Now I want to build 
 web apps on A, and access the urls from C.
 
-### Methods：
+### Methods
 
-** 1. build a reverse ssh tunnel **
+**1. build a reverse ssh tunnel**
 
 ```bash
 #on A, reverse tunnel
@@ -27,7 +27,7 @@ ssh -f -N -L 3333:localhost:2222 userB@B
 ssh -L 3333 userA@localhost
 ```
 
-** 2. dig web holes on B for web apps **
+**2. dig web holes on B for web apps**
 
 #on B,
 

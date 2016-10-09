@@ -15,7 +15,7 @@ web apps on A, and access the urls from C.
 
 ### Methods：
 
-** 1. build a reverse ssh tunnel
+** 1. build a reverse ssh tunnel **
 
 ```bash
 #on A, reverse tunnel
@@ -27,7 +27,9 @@ ssh -f -N -L 3333:localhost:2222 userB@B
 ssh -L 3333 userA@localhost
 ```
 
-** 2. dig web holes on B for web apps
+** 2. dig web holes on B for web apps **
+
+#on B,
 
 
 
@@ -36,8 +38,5 @@ ssh -L 3333 userA@localhost
 
 
 
-
-
-1. [reverse-ssh-port-forwarding](https://toic.org/blog/2009/reverse-ssh-port-forwarding/)
-
-2. [direct-ssh-tunnel-through-a-reverse-ssh-tunnel](http://askubuntu.com/questions/598626/direct-ssh-tunnel-through-a-reverse-ssh-tunnel)
+[reverse-ssh-port-forwarding](https://toic.org/blog/2009/reverse-ssh-port-forwarding/) 
+[direct-ssh-tunnel-through-a-reverse-ssh-tunnel](http://askubuntu.com/questions/598626/direct-ssh-tunnel-through-a-reverse-ssh-tunnel)

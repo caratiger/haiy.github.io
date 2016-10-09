@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ssh 反向连接，实现外部主机连接
+title: hack ssh
 ---
 
 {{page.title}}
@@ -8,9 +8,32 @@ title: ssh 反向连接，实现外部主机连接
 
 <p class="meta">2 Oct 2016</p>
 
-现在有三台linux主机，A家里的多层路由后主机，B独立外网IP主机，C任何环境上网主机。想要的情况是C可以连A.
+### Target  
 
-方法：
+There are three hosts，A with many NAT layers at home ，B public IP host，C host from anyhere.Now I want to build 
+web apps on A, and access the urls from C.
+
+### Methods：
+
+** 1. build a reverse ssh tunnel
+
+```bash
+#on A, reverse tunnel
+apt-get install autossh
+autossh -N -f -R 2222:localhost:22 userB@B
+
+#on C, try to connect A directly
+ssh -f -N -L 3333:localhost:2222 userB@B
+ssh -L 3333 userA@localhost
+```
+
+** 2. dig web holes on B for web apps
+
+
+
+
+
+
 
 
 

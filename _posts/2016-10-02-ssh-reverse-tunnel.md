@@ -1,6 +1,7 @@
 ---
-layout: post
 title: hack ssh
+date: 2016-10-02 00:00:00 Z
+layout: post
 ---
 
 {{page.title}}

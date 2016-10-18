@@ -1,6 +1,7 @@
 ---
-layout: post
 title: 混合预测模型以及Spark，JDK1.8配置
+date: 2015-08-16 00:00:00 Z
+layout: post
 commentIssueId: 1
 ---
 

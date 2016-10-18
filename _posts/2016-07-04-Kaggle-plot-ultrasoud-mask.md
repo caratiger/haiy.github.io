@@ -1,4 +1,6 @@
 ---
+title: Kaggle Plot Ultrasoud Mask
+date: 2016-07-04 00:00:00 Z
 layout: post
 ---
 

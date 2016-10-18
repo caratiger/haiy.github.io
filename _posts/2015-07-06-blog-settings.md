@@ -1,6 +1,7 @@
 ---
-layout: post
 title: 博客搭建相关
+date: 2015-07-06 00:00:00 Z
+layout: post
 commentIssueId: 6
 ---
 

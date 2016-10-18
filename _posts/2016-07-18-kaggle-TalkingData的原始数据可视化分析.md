@@ -1,4 +1,6 @@
 ---
+title: Kaggle Talkingdata的原始数据可视化分析
+date: 2016-07-18 00:00:00 Z
 layout: post
 ---
 

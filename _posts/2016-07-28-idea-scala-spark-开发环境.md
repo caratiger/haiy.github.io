@@ -1,4 +1,6 @@
 ---
+title: Idea Scala Spark 开发环境
+date: 2016-07-28 00:00:00 Z
 layout: post
 ---
 

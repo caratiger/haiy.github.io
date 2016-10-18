@@ -1,6 +1,7 @@
 ---
-layout: post
 title: ML－DataPreprocess
+date: 2015-07-26 00:00:00 Z
+layout: post
 ---
 
 {{ page.title }}

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Hello World.
+date: 2015-06-06 00:00:00 Z
+layout: post
 commentIssueId: 1
 ---
 

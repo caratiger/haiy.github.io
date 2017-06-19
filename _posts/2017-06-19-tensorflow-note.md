@@ -3,6 +3,11 @@ title: tensorflow note
 layout: post
 ---
 
+{{page.title}}
+=============
+
+<p class="meta">19 June 2017</p>
+
 ### 基本概念
 
 operation: 计算逻辑

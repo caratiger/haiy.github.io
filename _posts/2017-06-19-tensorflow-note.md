@@ -98,10 +98,10 @@ input node,从存储到worker。
 
 prefetch data. accumulating gradients.
 
-Refs:
-https://www.tensorflow.org/versions/r1.0/extend/architecture             
-https://github.com/tensorflow/tensorflow/blob/r1.1/tensorflow/core/protobuf/master_service.proto        
-https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45166.pdf
-https://github.com/samjabrahams/tensorflow-white-paper-notes 
-http://cs231n.github.io/optimization-2/
+**Ref:
 
+	*https://www.tensorflow.org/versions/r1.0/extend/architecture             
+	https://github.com/tensorflow/tensorflow/blob/r1.1/tensorflow/core/protobuf/master_service.proto        
+	*https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45166.pdf
+	*https://github.com/samjabrahams/tensorflow-white-paper-notes 
+	*http://cs231n.github.io/optimization-2/
